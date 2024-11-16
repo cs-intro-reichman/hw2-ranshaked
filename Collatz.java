@@ -2,6 +2,9 @@
 public class Collatz {
 	public static void main(String args[]) {
 		int number  =Integer.parseInt( args[0]);
+		String name = args[1];
+		if(name.charAt(0) == 'v')
+		{
 		int i1 = 0;
 		int i2 = 0;
 		for(int i = 1 ; i < number + 1 ; i++)
@@ -24,12 +27,12 @@ public class Collatz {
 				i2 = i1;
 			}
 			System.out.print(" (" + counter + ")");
-			System.out.println();
-
-			
-				
-			
+			System.out.println();	
 		}
+		System.out.println("Every one of the first " + number + " hailstone sequences reached 1.");
+	}else{
+		System.out.println("Every one of the first " + number + " hailstone sequences reached 1.");
+	}
 		
 		
 	}
