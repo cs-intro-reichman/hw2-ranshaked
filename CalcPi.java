@@ -4,7 +4,7 @@ public class CalcPi {
 	{ 
 		double numOperations = Integer.parseInt(args[0]);
 	    double pi = Math.PI;
-		System.out.println("pi according to java: " +pi);
+		System.out.println("pi according to Java: " +pi);
 		double piMe = 0.0;
 		double i = 0.0;
 		while(numOperations>0)
